@@ -1,5 +1,5 @@
 export const routes: RouteType[] = [
-  { id: "generate", label: "Generate", path: "", image: "icons/stars.svg" },
+  { id: "generate", label: "Generate", path: "/", image: "icons/stars.svg" },
   { id: "feed", label: "Feed", path: "feed", image: "icons/dashboard.svg" },
   {
     id: "history",
