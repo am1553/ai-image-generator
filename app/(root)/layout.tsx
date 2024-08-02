@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import React from "react";
 
-function Layout({ children }: Readonly<{ children: React.ReactNode }>) {
+function AppLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <div>
       <Header />
@@ -10,4 +10,4 @@ function Layout({ children }: Readonly<{ children: React.ReactNode }>) {
   );
 }
 
-export default Layout;
+export default AppLayout;

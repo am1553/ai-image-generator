@@ -17,9 +17,7 @@ import { usePathname } from "next/navigation";
 function MobileNav() {
   const path = usePathname();
   const pathname = path.split("").length < 2 ? "generate" : path.split("/")[1];
-  useEffect(() => {
-    console.log(pathname);
-  }, []);
+
   return (
     <Sheet>
       <SheetTrigger className="bg-purple h-8 w-8 rounded-md">
